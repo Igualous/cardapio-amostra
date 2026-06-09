@@ -152,13 +152,13 @@ function App() {
       {/* NAV TABS */}
       <nav id="menu" className="sticky top-0 z-10 bg-dark bg-opacity-92 backdrop-blur border-b border-gold border-opacity-15 flex justify-center gap-1 px-4 py-3 overflow-x-auto">
         <button onClick={() => setActiveCategory(null)} className={`px-5 py-2 rounded-md text-sm font-medium transition whitespace-nowrap ${
-          activeCategory === null ? 'bg-gold bg-opacity-18 text-gold' : 'text-muted hover:text-warm'
+          activeCategory === null ? 'bg-gold bg-opacity-20 text-gold' : 'text-warm hover:text-gold'
         }`}>
           Todos
         </button>
         {categories.map(cat => (
           <button key={cat} onClick={() => setActiveCategory(cat as DishCategory)} className={`px-5 py-2 rounded-md text-sm font-medium transition whitespace-nowrap capitalize ${
-            activeCategory === cat ? 'bg-gold bg-opacity-18 text-gold' : 'text-muted hover:text-warm'
+            activeCategory === cat ? 'bg-gold bg-opacity-20 text-gold' : 'text-warm hover:text-gold'
           }`}>
             {cat}
           </button>
