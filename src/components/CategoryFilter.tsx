@@ -43,7 +43,7 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
         onClick={() => onCategoryChange(null)}
         className={`px-4 py-2 rounded-full font-medium transition-all duration-200 flex items-center gap-2 ${
           activeCategory === null
-            ? 'bg-secondary text-white shadow-lg scale-105'
+            ? 'bg-gold text-cream shadow-lg scale-105'
             : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
         }`}
       >
@@ -58,7 +58,7 @@ export const CategoryFilter: React.FC<CategoryFilterProps> = ({
           onClick={() => onCategoryChange(category)}
           className={`px-4 py-2 rounded-full font-medium transition-all duration-200 flex items-center gap-2 ${
             activeCategory === category
-              ? 'bg-secondary text-white shadow-lg scale-105'
+              ? 'bg-gold text-cream shadow-lg scale-105'
               : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
           }`}
         >

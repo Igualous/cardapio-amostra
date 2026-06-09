@@ -33,12 +33,12 @@ export const MenuCard: React.FC<MenuCardProps> = ({
         {/* Tags */}
         <div className="flex gap-2 flex-wrap mb-2">
           {item.isVegan && (
-            <span className="text-xs font-semibold tracking-widest text-gold bg-gold bg-opacity-12 px-2 py-1 rounded">
+            <span className="text-xs font-semibold tracking-widest text-cream bg-gold bg-opacity-20 px-2 py-1 rounded">
               Vegano
             </span>
           )}
           {item.isGlutenFree && (
-            <span className="text-xs font-semibold tracking-widest text-gold bg-gold bg-opacity-12 px-2 py-1 rounded">
+            <span className="text-xs font-semibold tracking-widest text-cream bg-gold bg-opacity-20 px-2 py-1 rounded">
               Sem Glúten
             </span>
           )}

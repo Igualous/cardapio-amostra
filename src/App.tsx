@@ -158,7 +158,7 @@ function App() {
         </button>
         {categories.map(cat => (
           <button key={cat} onClick={() => setActiveCategory(cat as DishCategory)} className={`px-5 py-2 rounded-md text-sm font-medium transition whitespace-nowrap capitalize ${
-            activeCategory === cat ? 'bg-gold bg-opacity-20 text-gold' : 'text-warm hover:text-gold'
+            activeCategory === cat ? 'bg-gold bg-opacity-20 text-white' : 'te xt-warm hover:text-gold'
           }`}>
             {cat}
           </button>
@@ -222,7 +222,7 @@ function App() {
       {/* FOOTER */}
       <footer className="bg-charcoal border-t border-gold border-opacity-8 text-center py-12 px-4 text-muted text-sm">
         <p className="font-playfair text-lg text-gold mb-2">Cardápio Digital</p>
-        <p>© 2026 · Cardápio digital desenvolvido com ❤️</p>
+        <p>© 2026</p>
       </footer>
     </div>
   );
