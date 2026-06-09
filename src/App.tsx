@@ -144,7 +144,7 @@ function App() {
       <footer className="bg-gray-800 text-white mt-12">
         <div className="container mx-auto px-4 py-8 text-center">
           <p className="text-gray-400">
-            © 2026 Cardápio Virtual. Todos os direitos reservados.
+            © 2026 Igor Rodrigues. Todos os direitos reservados.
           </p>
         </div>
       </footer>

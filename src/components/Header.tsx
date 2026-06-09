@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <h1 className="text-2xl font-bold text-gray-800">Cardápio</h1>
-            <p className="text-xs text-gray-600">Vitrute Virtual</p>
+            <p className="text-xs text-gray-600">Cardápio Virtual</p>
           </div>
         </div>
 
