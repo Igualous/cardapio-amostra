@@ -1,16 +1,12 @@
-/* Estilo global para animações e customizações adicionais */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
-
-.line-clamp-1 {
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+/* Custom styles */
+.bg-gold {
+  background-color: #C8932A;
 }
 
-.line-clamp-2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+.bg-opacity-18 {
+  --tw-bg-opacity: 0.18;
+}
+
+.border-gold {
+  border-color: #C8932A;
 }
